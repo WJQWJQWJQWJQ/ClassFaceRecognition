@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 cap = cv2.VideoCapture(0)
 
-if __name__=='main':
+def capture():
     while(1):
         ret, frame = cap.read()
         cv2.imshow("capture", frame)
