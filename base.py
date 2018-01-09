@@ -6,11 +6,11 @@ Created on Tue Jan  9 15:25:55 2018
 """
 
 #LOCAL
-import vstream.vstream.py as vst
+import vstream.vstream as vst
 #OTHERS
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-if name='__main__':
+if __name__=='__main__':
     vst.capture()
